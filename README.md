@@ -35,3 +35,4 @@ För att registrera eller logga in en användare, skicka med JSON-data i bodyn m
   "password": "password"
 }
 ```
+Vid lyckad inloggning så skickas ett JSON Web Token tillbaka till besökaren som kan sparas på lämpligt ställe i webbläsaren för direktåtkomst till /api/admin under den kommande timman.
