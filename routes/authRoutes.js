@@ -22,16 +22,16 @@ router.post("/register", async (req, res) => {
         const { username, password } = req.body;
 
         // validate
-        if(!username || !password) return res.status(400).json({ error: "Invalid input." });
+        if(!username || !password) return res.status(400).json({ error: "Missing username or password" });
 
         // save user
         const user = new User({ username, password });
         await user.save();
 
-        res.status(201).json({ message: "User created."} );
+        res.status(201).json({ message: "User created!"} );
 
     } catch(error) {
-        res.status(500).json({ error: "Server error." });
+        res.status(500).json({ error: "User already exists" });
     }
 });
 
