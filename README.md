@@ -1,6 +1,8 @@
 <h1>REST API skapat för moment 4 i kursen DT207G</h1>
 Detta repository innehåller ett enklare REST API för att sköta lagring, registrering och inlogg av användare. Lagring av användare sker i en MongoDB-databas på Atlas. Alla lösenord hashas 10 gånger med hjälp av bcrypt-biblioteket.
-
+<br>
+APIet finns publicerat på länken: https://backend-moment4-1-p9uh.onrender.com
+<br>
 <h2>Användning</h2>
 Nedan finns beskriver hur man kan använda sig av APIet:
 <br>
