@@ -5,7 +5,7 @@ Detta repository innehåller ett enklare REST API för att sköta lagring, regis
 APIet finns publicerat på länken: https://backend-moment4-1-p9uh.onrender.com
 <br>
 <h2>Användning</h2>
-Nedan finns beskriver hur man kan använda sig av APIet:
+Nedanför beskriver hur man kan använda sig av APIet:
 <br>
 <br>
 <table>
